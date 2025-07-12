@@ -2,7 +2,7 @@ from NOBITA.utils.NOBITA_BAN import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from NOBITAMusic import app
+from NOBITA import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):
