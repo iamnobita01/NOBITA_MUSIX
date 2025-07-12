@@ -1,7 +1,7 @@
 from NOBITA import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from NOBITQ.utils.NOBITA_BAN import admin_filter
+from NOBITA.utils.NOBITA_BAN import admin_filter
 from NOBITA.mongo.notesdb import *
 from NOBITA.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
 from NOBITA.utils.yumidb import user_admin
