@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from NOBITQ import app
+from NOBITA import app
 from NOBITA.utils.database import get_playmode, get_playtype, is_nonadmin_chat
 from NOBITA.utils.decorators import language
 from NOBITA.utils.inline.settings import playmode_users_markup
