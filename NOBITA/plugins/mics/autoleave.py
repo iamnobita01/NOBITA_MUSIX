@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from NOBITA import app
-from NOBITA.core.call import SACHIN, autoend
+from NOBITA.core.call import NOBITA, autoend
 from NOBITA.utils.database import get_client, is_active_chat, is_autoend
 
 
