@@ -14,7 +14,7 @@ from pyrogram import filters
 load_dotenv()
 
 from NOBITA import app
-from NOBITA.core.call import SACHIN
+from NOBITA.core.call import NOBITA
 from NOBITA.misc import db
 from NOBITA.utils.database import get_assistant, get_authuser_names, get_cmode
 from NOBITA.utils.decorators import ActualAdminCB, AdminActual, language
