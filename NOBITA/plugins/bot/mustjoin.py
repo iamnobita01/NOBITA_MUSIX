@@ -2,7 +2,7 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
-from RishuMusic import app
+from NOBITA import app
 
 # Channels to enforce join
 MUST_JOIN_1 = "NOBITA_MUSIC_SUPPORT"
