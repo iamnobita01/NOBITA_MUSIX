@@ -1,7 +1,7 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from NOBITQ import app
+from NOBITA import app
 from NOBITA.misc import SUDOERS
 from NOBITA.utils.database import autoend_off, autoend_on
 
