@@ -1,7 +1,7 @@
 from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message, InlineKeyboardButton
-from NOBITQ import app
+from NOBITA import app
 from NOBITA.utils import help_pannel
 from NOBITA.utils.database import get_lang
 from NOBITA.utils.decorators.language import LanguageStart, languageCB
