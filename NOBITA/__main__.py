@@ -38,7 +38,7 @@ async def init():
         importlib.import_module("NOBITA.plugins" + all_module)
     LOGGER("NOBITA.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
     await userbot.start()
-    await SACHIN.start()
+    await NOBITA.start()
     try:
         await NOBITA.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
